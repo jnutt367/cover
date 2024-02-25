@@ -9,25 +9,40 @@
 </head>
 <body>
 
-    <div class="container p-5 my-5 bg-primary text-white">
+    <div class="container p-5 my-5 bg-light text-secondary">
   <h1>I'm Jason D. Nutt,</h1>
   <p>a passionate web developer 5 years into a mission to push the boundaries of technology and creativity.</p>
   <p>With a solid foundation in front-end web development from my tech degree at Treehouse, I've delved, dived, jumped....went way down into... deep into the world of web technologies.</p>
+        <p>This fully functional website is the finished product of the Bootstrap5 W3 Schools Curriculum, I am making one for every course!</p>
   <p>The .container-fluid class provides a full width container, spanning the entire width of the viewport.</p>
+  
+  
+  <div class="container-fluid p-5 bg-primary text-white text-center">
+    <h1>Here is how Grid looks with Bootstrap5</h1>
+    <p>Resize this responsive page to see the effect!</p> 
+  </div>
+    
+  <div class="container mt-5">
+    <div class="row">
+      <div class="col-sm-4">
+        <h3>Column 1</h3>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit...</p>
+        <p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris...</p>
+      </div>
+      <div class="col-sm-4">
+        <h3>Column 2</h3>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit...</p>
+        <p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris...</p>
+      </div>
+      <div class="col-sm-4">
+        <h3>Column 3</h3>        
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit...</p>
+        <p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris...</p>
+      </div>
+    </div>
+  </div>
 
-  <p>My journey has taken me through the intricacies of MongoDB and SQL, where I've honed my skills in database management.
-
-    <p>Alongside, I've emersed myself and become well adept with the powerful realms of React and TypeScript during my postgraduate studies, expanding my toolkit for building dynamic, efficient web applications.</p>
-    
-    <p>Now, I'm driven to elevate my craft from experienced contractor/freelancer to professional developer extraordinaire.</p>
-    
-    <p>With a hunger for knowledge and a relentless pursuit of excellence, I'm constantly upskilling and refining my expertise to deliver innovative solutions that leave a lasting impact.</p>
-    
-    <p>I am actually building out a video series that is a walkthrough of the Next.js documentation, so that I can help those coming after me and also show it on my resume when I have that completed.</p>
-    
-    <p>Join me on this exhilarating journey as we push the boundaries of what's possible in web development!</p>
-    
-    <p>I hope to collaborate or work with you soon if we both find that it would be mutually beneficial!</p>
+  
 </div>
 <div class="container mt-3">
     <h1>Keyboard Inputs</h1>
@@ -45,6 +60,186 @@
     line breaks.
     </pre>
     </div>
+
+    <div class="container mt-3">
+        <h2>Contextual Backgrounds</h2>
+        <p>Use the contextual background classes to provide "meaning through colors".</p>
+        <div class="bg-primary p-3"></div>
+        <div class="bg-success p-3"></div>
+        <div class="bg-info p-3"></div>
+        <div class="bg-warning p-3"></div>
+        <div class="bg-danger p-3"></div>
+        <div class="bg-secondary p-3"></div>
+        <div class="bg-dark p-3"></div>
+        <div class="bg-light p-3"></div>
+      </div>
+
+
+
+    <div class="container mt-3">
+        <h2>Background Color with Contrasting Text Color</h2>
+        <p class="text-bg-primary">This text is important.</p>
+        <p class="text-bg-success">This text indicates success.</p>
+        <p class="text-bg-info">This text represents some information.</p>
+        <p class="text-bg-warning">This text represents a warning.</p>
+        <p class="text-bg-danger">This text represents danger.</p>
+        <p class="text-bg-secondary">Secondary background color.</p>
+        <p class="text-bg-dark">Dark grey background color.</p>
+        <p class="text-bg-light">Light grey background color.</p>
+      </div>
+
+      <div class="container mt-3">
+        <h2>Contextual Colors</h2>
+        <p>Use the contextual classes to provide "meaning through colors":</p>
+        <p class="text-muted">This text is muted.</p>
+        <p class="text-primary">This text is important.</p>
+        <p class="text-success">This text indicates success.</p>
+        <p class="text-info">This text represents some information.</p>
+        <p class="text-warning">This text represents a warning.</p>
+        <p class="text-danger">This text represents danger.</p>
+        <p class="text-secondary">Secondary text.</p>
+        <p class="text-dark">This text is dark grey.</p>
+        <p class="text-body">Default body color (often black).</p>
+        <p class="text-light">This text is light grey (on white background).</p>
+        <p class="text-white">This text is white (on white background).</p>
+      </div>
+
+
+      <div class="container mt-3">
+        <h2>Opacity Text Colors</h2>
+        <p>Add 50% opacity for black or white text with the .text-black-50 or .text-white-50 classes:</p>
+        <p class="text-black-50">Black text with 50% opacity on white background</p>
+        <p class="text-white-50 bg-dark">White text with 50% opacity on black background</p>
+      </div>
+
+      <div class="container mt-3">
+        <h2>Basic Table</h2>
+        <p>The .table class adds basic styling (light padding and horizontal dividers) to a table:</p>            
+        <table class="table">
+          <thead>
+            <tr>
+              <th>Firstname</th>
+              <th>Lastname</th>
+              <th>Email</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>John</td>
+              <td>Doe</td>
+              <td>john@example.com</td>
+            </tr>
+            <tr>
+              <td>Mary</td>
+              <td>Moe</td>
+              <td>mary@example.com</td>
+            </tr>
+            <tr>
+              <td>July</td>
+              <td>Dooley</td>
+              <td>july@example.com</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+
+
+      <div class="container mt-3">
+        <h2>Striped Rows</h2>
+        <p>The .table-striped class adds zebra-stripes to a table:</p>            
+        <table class="table table-striped">
+          <thead>
+            <tr>
+              <th>Firstname</th>
+              <th>Lastname</th>
+              <th>Email</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>John</td>
+              <td>Doe</td>
+              <td>john@example.com</td>
+            </tr>
+            <tr>
+              <td>Mary</td>
+              <td>Moe</td>
+              <td>mary@example.com</td>
+            </tr>
+            <tr>
+              <td>July</td>
+              <td>Dooley</td>
+              <td>july@example.com</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+
+      <div class="container mt-3">
+        <h2>Bordered Table</h2>
+        <p>The .table-bordered class adds borders on all sides of the table and the cells:</p>            
+        <table class="table table-bordered">
+          <thead>
+            <tr>
+              <th>Firstname</th>
+              <th>Lastname</th>
+              <th>Email</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>John</td>
+              <td>Doe</td>
+              <td>john@example.com</td>
+            </tr>
+            <tr>
+              <td>Mary</td>
+              <td>Moe</td>
+              <td>mary@example.com</td>
+            </tr>
+            <tr>
+              <td>July</td>
+              <td>Dooley</td>
+              <td>july@example.com</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+
+      <div class="container mt-3">
+        <h2>Hover Rows</h2>
+        <p>The .table-hover class enables a hover state (grey background on mouse over) on table rows:</p>            
+        <table class="table table-hover">
+          <thead>
+            <tr>
+              <th>Firstname</th>
+              <th>Lastname</th>
+              <th>Email</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>John</td>
+              <td>Doe</td>
+              <td>john@example.com</td>
+            </tr>
+            <tr>
+              <td>Mary</td>
+              <td>Moe</td>
+              <td>mary@example.com</td>
+            </tr>
+            <tr>
+              <td>July</td>
+              <td>Dooley</td>
+              <td>july@example.com</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+      
+      </body>
+
+
 
 
 
