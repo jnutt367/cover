@@ -14,7 +14,8 @@
   <a href="#pills">Back to Pills section</a>
   <p>a passionate web developer 5 years into a mission to push the boundaries of technology and creativity.</p>
   <p>With a solid foundation in front-end web development from my tech degree at Treehouse, I've delved, dived, jumped....went way down into... deep into the world of web technologies.</p>
-        <p>This is how I learned Bootstrap5 W3 Schools Curriculum, I am creating my own tutorial website as we complete the courses and then I will have in one repo a code snippet for every single feature of the framework while solidifying my capabilities, a flawless plan!</p>
+        <p>This is how I learned Bootstrap5 W3 Schools Curriculum, I am creating my own tutorial website as we complete the courses and then I will have in one repo a code snippet for every single feature of the framework (WITH SOLID NOTES!)
+            <br>while solidifying my capabilities, a flawless plan!</p>
   <p>The .container-fluid class provides a full width container, spanning the entire width of the viewport.</p>
   
   
@@ -1370,6 +1371,412 @@
           <a href="#" class="list-group-item list-group-item-action list-group-item-light">Light item</a>
         </div>
       </div>
+
+      <div class="container mt-3">
+        <h2>List Group With Badges</h2>
+        <p>Combine .badge classes with utility/helper classes to add badges inside the list group:</p>
+        <ul class="list-group">
+          <li class="list-group-item d-flex justify-content-between align-items-center">
+            Inbox
+            <span class="badge bg-primary rounded-pill">12</span>
+          </li>
+          <li class="list-group-item d-flex justify-content-between align-items-center">
+            Ads
+            <span class="badge bg-primary rounded-pill">50</span>
+          </li>
+          <li class="list-group-item d-flex justify-content-between align-items-center">
+            Junk
+            <span class="badge bg-primary rounded-pill">99</span>
+          </li>
+        </ul>
+      </div>
+
+      <div class="container mt-3">
+        <h2>Basic Card</h2>
+        <div class="card">
+          <div class="card-body">Basic card</div>
+        </div>
+      </div>
+
+      <div class="container mt-3">
+        <h2>Card Header and Footer</h2>
+        <div class="card">
+          <div class="card-header">Header</div>
+          <div class="card-body">Content</div> 
+          <div class="card-footer">Footer</div>
+        </div>
+      </div>
+      
+      <div class="container mt-3">
+        <h2>Cards with Contextual Classes</h2>
+        <div class="card">
+          <div class="card-body">Basic card</div>
+        </div>
+        <br>
+        <div class="card bg-primary text-white">
+          <div class="card-body">Primary card</div>
+        </div>
+        <br>
+        <div class="card bg-success text-white">
+          <div class="card-body">Success card</div>
+        </div>
+        <br>
+        <div class="card bg-info text-white">
+          <div class="card-body">Info card</div>
+        </div>
+        <br>
+        <div class="card bg-warning text-white">
+          <div class="card-body">Warning card</div>
+        </div>
+        <br>
+        <div class="card bg-danger text-white">
+          <div class="card-body">Danger card</div>
+        </div>
+        <br>
+        <div class="card bg-secondary text-white">
+          <div class="card-body">Secondary card</div>
+        </div>
+        <br>
+        <div class="card bg-dark text-white">
+          <div class="card-body">Dark card</div>
+        </div>
+        <br>
+        <div class="card bg-light text-dark">
+          <div class="card-body">Light card</div>
+        </div>
+      </div>
+
+
+
+<div class="container mt-3">
+  <h2>Card titles, text, and links</h2>
+  <p>Use .card-title to add card titles to any heading element. The .card-text class is used to remove bottom margins for a p element if it is the last child (or the only one) in card-body. The .card-link class adds a blue color to any link, and a hover effect.</p>
+  <div class="card">
+    <div class="card-body">
+      <h4 class="card-title">Card title</h4>
+      <p class="card-text">Some example text. Some example text.</p>
+      <a href="#" class="card-link">Card link</a>
+      <a href="#" class="card-link">Another link</a>
+    </div>
+  </div>
+</div>
+
+
+<div class="container mt-3">
+    <h2>Card Image</h2>
+    <p>Image at the top (card-img-top):</p>
+    <div class="card" style="width:400px">
+      <img class="card-img-top" src="jason-canva-bg.png" alt="Card image" style="width:100%">
+      <div class="card-body">
+        <h4 class="card-title">John Doe</h4>
+        <p class="card-text">Some example text some example text. John Doe is an architect and engineer</p>
+        <a href="#" class="btn btn-primary">See Profile</a>
+      </div>
+    </div>
+    <br>
+    
+    <p>Image at the bottom (card-img-bottom):</p>
+    <div class="card" style="width:400px">
+      <div class="card-body">
+        <h4 class="card-title">Jane Doe</h4>
+        <p class="card-text">Some example text some example text. Jane Doe is an architect and engineer</p>
+        <a href="#" class="btn btn-primary">See Profile</a>
+      </div>
+      <img class="card-img-bottom" src="jason-canva-banner-3.png" alt="Card image" style="width:100%">
+    </div>
+  </div>
+  
+
+  <div class="container mt-3">
+    <h2>Card Image Overlay</h2>
+    <p>Turn an image into a card background and use .card-img-overlay to overlay the card's text:</p>
+    <div class="card img-fluid text-white" style="width:500px">
+      <img class="card-img-top" src="youtube-new-bg.jpeg" alt="Card image" style="width:100%">
+      <div class="card-img-overlay">
+        <h4 class="card-title">John Doe</h4>
+        <p class="card-text">Some example text some example text. Some example text some example text. Some example text some example text. Some example text some example text.</p>
+        <a href="#" class="btn btn-primary">See Profile</a>
+      </div>
+    </div>
+  </div>
+
+
+  <div class="container mt-3">
+    <h2>Dropdowns</h2>
+    <p>The .dropdown class is used to indicate a dropdown menu.</p>
+    <p>Use the .dropdown-menu class to actually build the dropdown menu.</p>
+    <p>To open the dropdown menu, use a button or a link with a class of .dropdown-toggle and data-toggle="dropdown".</p>                                          
+    <div class="dropdown">
+      <button type="button" class="btn btn-primary dropdown-toggle" data-bs-toggle="dropdown">
+        Dropdown button
+      </button>
+      <ul class="dropdown-menu">
+        <li><a class="dropdown-item" href="#">Link 1</a></li>
+        <li><a class="dropdown-item" href="#">Link 2</a></li>
+        <li><a class="dropdown-item" href="#">Link 3</a></li>
+      </ul>
+    </div>
+  </div>
+  
+
+  <div class="container mt-3">
+    <h2>Dropdowns</h2>
+    <p>The .dropdown-divider class is used to separate links inside the dropdown menu with a thin horizontal line:</p>
+  
+    <div class="dropdown">
+      <button type="button" class="btn btn-primary dropdown-toggle" data-bs-toggle="dropdown">
+        Dropdown button
+      </button>
+      <ul class="dropdown-menu">
+        <li><a class="dropdown-item" href="#">Link 1</a></li>
+        <li><a class="dropdown-item" href="#">Link 2</a></li>
+        <li><a class="dropdown-item" href="#">Link 3</a></li>
+        <li><hr class="dropdown-divider"></li>
+        <li><a class="dropdown-item" href="#">Another link</a></li>
+      </ul>
+    </div>
+  </div>
+  
+
+  <div class="container mt-3">
+    <h2>Dropdowns</h2>
+    <p>The .dropdown-header class is used to add headers inside the dropdown menu:</p>
+  
+    <div class="dropdown">
+      <button type="button" class="btn btn-primary dropdown-toggle" data-bs-toggle="dropdown">
+        Dropdown button
+      </button>
+      <ul class="dropdown-menu">
+        <li><h5 class="dropdown-header">Dropdown header 1</h5></li>
+        <li><a class="dropdown-item" href="#">Link 1</a></li>
+        <li><a class="dropdown-item" href="#">Link 2</a></li>
+        <li><a class="dropdown-item" href="#">Link 3</a></li>
+        <li><h5 class="dropdown-header">Dropdown header 2</h5></li>
+        <li><a class="dropdown-item" href="#">Another link</a></li>
+      </ul>
+    </div>
+  </div>
+
+  <div class="container mt-3">
+    <h2>Dropdowns</h2>
+    <p>The .active class adds a blue background color to the active link.</p>
+    <p>The .disabled class disables a dropdown item (grey text color and a no-parking-sign on hover).</p>
+    
+    <div class="dropdown">
+      <button type="button" class="btn btn-primary dropdown-toggle" data-bs-toggle="dropdown">
+        Dropdown button
+      </button>
+      <ul class="dropdown-menu">
+        <li><a class="dropdown-item" href="#">Normal</a></li>
+        <li><a class="dropdown-item active" href="#">Active</a></li>
+        <li><a class="dropdown-item disabled" href="#">Disabled</a></li>
+      </ul>
+    </div>
+  </div>
+
+  <div class="container mt-3">
+    <h2>Dropdowns</h2>
+    <p>Add the .dropend class next to the dropdown menu to right-align the dropdown. Note that the caret/arrows is added automatically:</p>
+  
+    <div class="dropdown dropend">
+      <button type="button" class="btn btn-primary dropdown-toggle" data-bs-toggle="dropdown">
+        Dropend
+      </button>
+      <ul class="dropdown-menu">
+        <li><a class="dropdown-item" href="#">Normal</a></li>
+        <li><a class="dropdown-item active" href="#">Active</a></li>
+        <li><a class="dropdown-item disabled" href="#">Disabled</a></li>
+      </ul>
+    </div>
+  </div>
+
+  <div class="container mt-3">
+    <h2>Dropdowns</h2>
+    <p>Add the .dropstart class next to the dropdown menu to left-align the dropdown. Note that the caret/arrow is added automatically. Also note that we float the dropdown to the right:</p>
+  
+    <div class="dropdown dropstart text-end">
+      <button type="button" class="btn btn-primary dropdown-toggle" data-bs-toggle="dropdown">
+        Dropstart
+      </button>
+      <ul class="dropdown-menu">
+        <li><a class="dropdown-item" href="#">Normal</a></li>
+        <li><a class="dropdown-item active" href="#">Active</a></li>
+        <li><a class="dropdown-item disabled" href="#">Disabled</a></li>
+      </ul>
+    </div>
+  </div>
+
+  <div class="container mt-3">
+    <h2>Dropdowns</h2>
+    <p>Add the .dropdown-menu-end class to .dropdown-menu to right-align the dropdown menu.</p>
+                                      
+    <div class="dropdown dropdown-menu-end">
+      <button type="button" class="btn btn-primary dropdown-toggle" data-bs-toggle="dropdown">
+        Wide dropdown button to demonstrate this example
+      </button>
+      <ul class="dropdown-menu">
+        <li><a class="dropdown-item" href="#">Link 1</a></li>
+        <li><a class="dropdown-item" href="#">Link 2</a></li>
+        <li><a class="dropdown-item" href="#">Link 3</a></li>
+      </ul>
+    </div>
+  </div>
+  
+  <div class="container mt-3">
+    <h2>Dropdowns</h2>
+    <p>The .dropup class makes the dropdown menu expand upwards instead of downwards:</p>
+    <p>It must be room for the dropup menu to grow. That is why we add some extra lorem ipsum text.</p>
+    <p>Lorem ipsum one more time!</p>
+    
+    <div class="dropup">
+      <button type="button" class="btn btn-primary dropdown-toggle" data-bs-toggle="dropdown">
+        Dropup button
+      </button>
+      <ul class="dropdown-menu">
+        <li><a class="dropdown-item" href="#">Link 1</a></li>
+        <li><a class="dropdown-item" href="#">Link 2</a></li>
+        <li><a class="dropdown-item" href="#">Link 3</a></li>
+      </ul>
+    </div>
+  </div>
+
+
+<div class="container mt-3">
+  <h2>Dropdowns</h2>
+  <p>The .dropdown-item-text class is used to add plain text to a dropdown, or used on links for default link styling.</p>                                        
+
+  <div class="dropdown">
+    <button type="button" class="btn btn-primary dropdown-toggle" data-bs-toggle="dropdown">
+      Dropdown button
+    </button>
+    <ul class="dropdown-menu">
+      <li><a class="dropdown-item" href="#">Link 1</a></li>
+      <li><a class="dropdown-item" href="#">Link 2</a></li>
+      <li><a class="dropdown-item" href="#">Link 3</a></li>
+      <li><a class="dropdown-item-text" href="#">Text Link</a></li>
+      <li><span class="dropdown-item-text">Just Text</span></li>
+    </ul>
+  </div>
+</div>
+
+<div class="container mt-3">
+    <h2>Nesting Button Groups</h2>
+    <p>Nest button groups to create dropdown menus:</p>
+    <div class="btn-group">
+      <button type="button" class="btn btn-primary">Apple</button>
+      <button type="button" class="btn btn-primary">Samsung</button>
+      <div class="btn-group">
+        <button type="button" class="btn btn-primary dropdown-toggle" data-bs-toggle="dropdown">Sony</button>
+        <ul class="dropdown-menu">
+          <li><a class="dropdown-item" href="#">Tablet</a></li>
+          <li><a class="dropdown-item" href="#">Smartphone</a></li>
+        </ul>
+      </div>
+    </div>
+  </div>
+
+  <div class="container mt-3">
+    <h2>Vertical Button Group with Dropdown</h2>
+    <div class="btn-group-vertical">
+      <button type="button" class="btn btn-primary">Apple</button>
+      <button type="button" class="btn btn-primary">Samsung</button>
+      <div class="btn-group">
+        <button type="button" class="btn btn-primary dropdown-toggle" data-bs-toggle="dropdown">Sony</button>
+        <ul class="dropdown-menu">
+          <li><a class="dropdown-item" href="#">Tablet</a></li>
+          <li><a class="dropdown-item" href="#">Smartphone</a></li>
+        </ul>
+      </div>
+    </div>
+  </div>
+
+  <div class="container mt-3">
+    <h2>Simple Collapsible</h2>
+    <p>Click on the button to toggle between showing and hiding content.</p>
+    <button type="button" class="btn btn-primary" data-bs-toggle="collapse" data-bs-target="#demo">Simple collapsible</button>
+    <div id="demo" class="collapse">
+      Lorem ipsum dolor sit amet, consectetur adipisicing elit,
+      sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+      quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+    </div>
+  </div>
+
+  <div class="container mt-3">
+    <h2>Show Collapsible Content By Default</h2>
+    <p>Add the show class next to the collapse class to show the content by default.</p>
+    <p>Click on the button to toggle between showing and hiding content.</p>
+    <button type="button" class="btn btn-primary" data-bs-toggle="collapse" data-bs-target="#demo">Simple collapsible</button>
+    <div id="demo" class="collapse show">
+      Lorem ipsum dolor sit amet, consectetur adipisicing elit,
+      sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+      quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+    </div>
+  </div>
+
+
+  <div class="container mt-3">
+    <h2>Accordion Example</h2>
+    <p><strong>Note:</strong> The <strong>data-bs-parent</strong> attribute makes sure that all collapsible elements under the specified parent will be closed when one of the collapsible item is shown.</p>
+    <div id="accordion">
+      <div class="card">
+        <div class="card-header">
+          <a class="btn" data-bs-toggle="collapse" href="#collapseOne">
+            Collapsible Group Item #1
+          </a>
+        </div>
+        <div id="collapseOne" class="collapse show" data-bs-parent="#accordion">
+          <div class="card-body">
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+          </div>
+        </div>
+      </div>
+      <div class="card">
+        <div class="card-header">
+          <a class="collapsed btn" data-bs-toggle="collapse" href="#collapseTwo">
+          Collapsible Group Item #2
+        </a>
+        </div>
+        <div id="collapseTwo" class="collapse" data-bs-parent="#accordion">
+          <div class="card-body">
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+          </div>
+        </div>
+      </div>
+      <div class="card">
+        <div class="card-header">
+          <a class="collapsed btn" data-bs-toggle="collapse" href="#collapseThree">
+            Collapsible Group Item #3
+          </a>
+        </div>
+        <div id="collapseThree" class="collapse" data-bs-parent="#accordion">
+          <div class="card-body">
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="container mt-3">
+    <h2>Nav</h2>
+    <p>Basic horizontal menu:</p>
+    <ul class="nav">
+      <li class="nav-item">
+        <a class="nav-link" href="#">Link</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#">Link</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#">Link</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link disabled" href="#">Disabled</a>
+      </li>
+    </ul>
+  </div>
+
+
 
 
 
