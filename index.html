@@ -3297,6 +3297,1247 @@
     </div>
   </div>
 
+  <div class="container mt-3">
+    <h2>Inline Flex</h2>
+    <p>To create an inline flexbox container, use the d-inline-flex class:</p>
+    <div class="d-inline-flex p-3 bg-secondary text-white">  
+      <div class="p-2 bg-info">Flex item 1</div>
+      <div class="p-2 bg-warning">Flex item 2</div>
+      <div class="p-2 bg-primary">Flex item 3</div>
+    </div>
+  </div>
+
+  <div class="container mt-3">
+    <h2>Horizontal Direction</h2>
+    <p>Use .flex-row to make the flex items appear side by side (default):</p>
+    <div class="d-flex flex-row bg-secondary mb-3">
+      <div class="p-2 bg-info">Flex item 1</div>
+      <div class="p-2 bg-warning">Flex item 2</div>
+      <div class="p-2 bg-primary">Flex item 3</div>
+    </div>
+    <p>Use .flex-row-reverse to right-align the direction:</p>
+    <div class="d-flex flex-row-reverse bg-secondary">
+      <div class="p-2 bg-info">Flex item 1</div>
+      <div class="p-2 bg-warning">Flex item 2</div>
+      <div class="p-2 bg-primary">Flex item 3</div>
+    </div>
+  </div>
+
+  
+  <div class="container mt-3">
+    <h2>Vertical Direction</h2>
+    <p>Use .flex-column to display the flex items vertically (on top of each other):</p>
+    <div class="d-flex flex-column mb-3">
+      <div class="p-2 bg-info">Flex item 1</div>
+      <div class="p-2 bg-warning">Flex item 2</div>
+      <div class="p-2 bg-primary">Flex item 3</div>
+    </div>
+    <p>Use .flex-column-reverse to reverse the vertical direction:</p>
+    <div class="d-flex flex-column-reverse">
+      <div class="p-2 bg-info">Flex item 1</div>
+      <div class="p-2 bg-warning">Flex item 2</div>
+      <div class="p-2 bg-primary">Flex item 3</div>
+    </div>
+  </div>
+
+  <div class="container mt-3">
+    <h2>Justify content</h2>
+    <p>Use the .justify-content-* classes to change the alignment of flex items. Choose from start (default), end, center, between or around:</p>
+    <div class="d-flex justify-content-start bg-secondary mb-3">
+      <div class="p-2 bg-info">Flex item 1</div>
+      <div class="p-2 bg-warning">Flex item 2</div>
+      <div class="p-2 bg-primary">Flex item 3</div>
+    </div>
+    <div class="d-flex justify-content-end bg-secondary mb-3">
+      <div class="p-2 bg-info">Flex item 1</div>
+      <div class="p-2 bg-warning">Flex item 2</div>
+      <div class="p-2 bg-primary">Flex item 3</div>
+    </div>
+    <div class="d-flex justify-content-center bg-secondary mb-3">
+      <div class="p-2 bg-info">Flex item 1</div>
+      <div class="p-2 bg-warning">Flex item 2</div>
+      <div class="p-2 bg-primary">Flex item 3</div>
+    </div>
+    <div class="d-flex justify-content-between bg-secondary mb-3">
+      <div class="p-2 bg-info">Flex item 1</div>
+      <div class="p-2 bg-warning">Flex item 2</div>
+      <div class="p-2 bg-primary">Flex item 3</div>
+    </div>
+    <div class="d-flex justify-content-around bg-secondary mb-3">
+      <div class="p-2 bg-info">Flex item 1</div>
+      <div class="p-2 bg-warning">Flex item 2</div>
+      <div class="p-2 bg-primary">Flex item 3</div>
+    </div>
+  </div>
+
+
+  <div class="container mt-3">
+    <h2>Fill / Equal Widths</h2>
+    <p>Use .flex-fill on flex items to force them into equal widths:</p>
+    <div class="d-flex mb-3">
+      <div class="p-2 flex-fill bg-info">Flex item 1</div>
+      <div class="p-2 flex-fill bg-warning">Flex item 2</div>
+      <div class="p-2 flex-fill bg-primary">Flex item 3</div>
+    </div>
+    <p>Example without .flex-fill:</p>
+    <div class="d-flex mb-3 bg-secondary">
+      <div class="p-2 bg-info">Flex item 1</div>
+      <div class="p-2 bg-warning">Flex item 2</div>
+      <div class="p-2 bg-primary">Flex item 3</div>
+    </div>
+  </div>
+
+  <div class="container mt-3">
+    <h2>Order</h2>
+    <p>Change the visual order of a specific flex item(s) with the .order classes. Valid classes are from 0 to 5:</p>
+    <div class="d-flex mb-3">
+      <div class="p-2 order-3 bg-info">Flex item 1</div>
+      <div class="p-2 order-2 bg-warning">Flex item 2</div>
+      <div class="p-2 order-1 bg-primary">Flex item 3</div>
+    </div>
+  </div>
+
+  <div class="container mt-3">
+    <h2>Auto Margins</h2>
+    <p>Easily add auto margins to flex items with .mr-auto (push items to the right), or by using .ml-auto (push items to the left):</p>
+    <div class="d-flex mb-3 bg-secondary">
+      <div class="p-2 ms-auto bg-info">Flex item 1</div>
+      <div class="p-2 bg-warning">Flex item 2</div>
+      <div class="p-2 bg-primary">Flex item 3</div>
+    </div>
+    <div class="d-flex mb-3 bg-secondary">
+      <div class="p-2  bg-info">Flex item 1</div>
+      <div class="p-2 bg-warning">Flex item 2</div>
+      <div class="p-2 me-auto bg-primary">Flex item 3</div>
+    </div>
+  </div>
+
+
+  <div class="container mt-3">
+    <h2>Wrap</h2>
+    <p>Control how flex items wrap in a flex container with .flex-nowrap (default), .flex-wrap or .flex-wrap-reverse.</p>
+    <p><code>.flex-wrap:</code></p>
+    <div class="d-flex flex-wrap bg-light">
+      <div class="p-2 border">Flex item 1</div>
+      <div class="p-2 border">Flex item 2</div>
+      <div class="p-2 border">Flex item 3</div>
+      <div class="p-2 border">Flex item 4</div>
+      <div class="p-2 border">Flex item 5</div>
+      <div class="p-2 border">Flex item 6</div>
+      <div class="p-2 border">Flex item 7</div>
+      <div class="p-2 border">Flex item 8</div>
+      <div class="p-2 border">Flex item 9</div>
+      <div class="p-2 border">Flex item 10</div>
+      <div class="p-2 border">Flex item 11</div>
+      <div class="p-2 border">Flex item 12</div>
+      <div class="p-2 border">Flex item 13 </div>
+      <div class="p-2 border">Flex item 14</div>
+      <div class="p-2 border">Flex item 15</div>
+      <div class="p-2 border">Flex item 16</div>
+      <div class="p-2 border">Flex item 17</div>
+      <div class="p-2 border">Flex item 18</div>
+      <div class="p-2 border">Flex item 19</div>
+      <div class="p-2 border">Flex item 20</div>
+      <div class="p-2 border">Flex item 21</div>
+      <div class="p-2 border">Flex item 22</div>
+      <div class="p-2 border">Flex item 23</div>
+      <div class="p-2 border">Flex item 24</div>
+      <div class="p-2 border">Flex item 25</div>
+    </div>
+    <br>
+    <p><code>.flex-wrap-reverse:</code></p>
+    <div class="d-flex flex-wrap-reverse bg-light">
+      <div class="p-2 border">Flex item 1</div>
+      <div class="p-2 border">Flex item 2</div>
+      <div class="p-2 border">Flex item 3</div>
+      <div class="p-2 border">Flex item 4</div>
+      <div class="p-2 border">Flex item 5</div>
+      <div class="p-2 border">Flex item 6</div>
+      <div class="p-2 border">Flex item 7</div>
+      <div class="p-2 border">Flex item 8</div>
+      <div class="p-2 border">Flex item 9</div>
+      <div class="p-2 border">Flex item 10</div>
+      <div class="p-2 border">Flex item 11</div>
+      <div class="p-2 border">Flex item 12</div>
+      <div class="p-2 border">Flex item 13 </div>
+      <div class="p-2 border">Flex item 14</div>
+      <div class="p-2 border">Flex item 15</div>
+      <div class="p-2 border">Flex item 16</div>
+      <div class="p-2 border">Flex item 17</div>
+      <div class="p-2 border">Flex item 18</div>
+      <div class="p-2 border">Flex item 19</div>
+      <div class="p-2 border">Flex item 20</div>
+      <div class="p-2 border">Flex item 21</div>
+      <div class="p-2 border">Flex item 22</div>
+      <div class="p-2 border">Flex item 23</div>
+      <div class="p-2 border">Flex item 24</div>
+      <div class="p-2 border">Flex item 25</div>
+    </div>
+    <br>
+    <p><code>.flex-nowrap:</code></p>
+    <div class="d-flex flex-nowrap bg-light">
+      <div class="p-2 border">Flex item 1</div>
+      <div class="p-2 border">Flex item 2</div>
+      <div class="p-2 border">Flex item 3</div>
+      <div class="p-2 border">Flex item 4</div>
+      <div class="p-2 border">Flex item 5</div>
+      <div class="p-2 border">Flex item 6</div>
+      <div class="p-2 border">Flex item 7</div>
+      <div class="p-2 border">Flex item 8</div>
+      <div class="p-2 border">Flex item 9</div>
+      <div class="p-2 border">Flex item 10</div>
+      <div class="p-2 border">Flex item 11</div>
+      <div class="p-2 border">Flex item 12</div>
+      <div class="p-2 border">Flex item 13 </div>
+      <div class="p-2 border">Flex item 14</div>
+      <div class="p-2 border">Flex item 15</div>
+      <div class="p-2 border">Flex item 16</div>
+      <div class="p-2 border">Flex item 17</div>
+      <div class="p-2 border">Flex item 18</div>
+      <div class="p-2 border">Flex item 19</div>
+      <div class="p-2 border">Flex item 20</div>
+      <div class="p-2 border">Flex item 21</div>
+      <div class="p-2 border">Flex item 22</div>
+      <div class="p-2 border">Flex item 23</div>
+      <div class="p-2 border">Flex item 24</div>
+      <div class="p-2 border">Flex item 25</div>
+      <div class="p-2 border">Flex item 26</div>
+      <div class="p-2 border">Flex item 27</div>
+      <div class="p-2 border">Flex item 28</div>
+      <div class="p-2 border">Flex item 29</div>
+      <div class="p-2 border">Flex item 30</div>
+      <div class="p-2 border">Flex item 31</div>
+      <div class="p-2 border">Flex item 32</div>
+      <div class="p-2 border">Flex item 33</div>
+      <div class="p-2 border">Flex item 34</div>
+      <div class="p-2 border">Flex item 35</div>
+    </div>
+    <br>
+  </div>
+
+  <div class="container mt-3">
+    <h2>Align Content</h2>
+    <p>Control the vertical alignment of gathered flex items with the .align-content-* classes.</p>
+    <p><strong>Note:</strong> This example does not look good on a small devices. Also note that these classes have no effect on single rows of flex items.</p>
+    <p>.align-content-start (default):</p>
+    <div class="d-flex flex-wrap align-content-start bg-light" style="height:300px">
+      <div class="p-2 border">Flex item 1</div>
+      <div class="p-2 border">Flex item 2</div>
+      <div class="p-2 border">Flex item 3</div>
+      <div class="p-2 border">Flex item 4</div>
+      <div class="p-2 border">Flex item 5</div>
+      <div class="p-2 border">Flex item 6</div>
+      <div class="p-2 border">Flex item 7</div>
+      <div class="p-2 border">Flex item 8</div>
+      <div class="p-2 border">Flex item 9</div>
+      <div class="p-2 border">Flex item 10</div>
+      <div class="p-2 border">Flex item 11</div>
+      <div class="p-2 border">Flex item 12</div>
+      <div class="p-2 border">Flex item 13 </div>
+      <div class="p-2 border">Flex item 14</div>
+      <div class="p-2 border">Flex item 15</div>
+      <div class="p-2 border">Flex item 16</div>
+      <div class="p-2 border">Flex item 17</div>
+      <div class="p-2 border">Flex item 18</div>
+      <div class="p-2 border">Flex item 19</div>
+      <div class="p-2 border">Flex item 20</div>
+      <div class="p-2 border">Flex item 21</div>
+      <div class="p-2 border">Flex item 22</div>
+      <div class="p-2 border">Flex item 23</div>
+      <div class="p-2 border">Flex item 24</div>
+      <div class="p-2 border">Flex item 25</div>
+    </div>
+    <br>
+    <p>.align-content-end:</p>
+    <div class="d-flex flex-wrap align-content-end bg-light" style="height:300px">
+      <div class="p-2 border">Flex item 1</div>
+      <div class="p-2 border">Flex item 2</div>
+      <div class="p-2 border">Flex item 3</div>
+      <div class="p-2 border">Flex item 4</div>
+      <div class="p-2 border">Flex item 5</div>
+      <div class="p-2 border">Flex item 6</div>
+      <div class="p-2 border">Flex item 7</div>
+      <div class="p-2 border">Flex item 8</div>
+      <div class="p-2 border">Flex item 9</div>
+      <div class="p-2 border">Flex item 10</div>
+      <div class="p-2 border">Flex item 11</div>
+      <div class="p-2 border">Flex item 12</div>
+      <div class="p-2 border">Flex item 13 </div>
+      <div class="p-2 border">Flex item 14</div>
+      <div class="p-2 border">Flex item 15</div>
+      <div class="p-2 border">Flex item 16</div>
+      <div class="p-2 border">Flex item 17</div>
+      <div class="p-2 border">Flex item 18</div>
+      <div class="p-2 border">Flex item 19</div>
+      <div class="p-2 border">Flex item 20</div>
+      <div class="p-2 border">Flex item 21</div>
+      <div class="p-2 border">Flex item 22</div>
+      <div class="p-2 border">Flex item 23</div>
+      <div class="p-2 border">Flex item 24</div>
+      <div class="p-2 border">Flex item 25</div>
+    </div>
+    <br>
+    <p>.align-content-center:</p>
+    <div class="d-flex flex-wrap align-content-center bg-light" style="height:300px">
+      <div class="p-2 border">Flex item 1</div>
+      <div class="p-2 border">Flex item 2</div>
+      <div class="p-2 border">Flex item 3</div>
+      <div class="p-2 border">Flex item 4</div>
+      <div class="p-2 border">Flex item 5</div>
+      <div class="p-2 border">Flex item 6</div>
+      <div class="p-2 border">Flex item 7</div>
+      <div class="p-2 border">Flex item 8</div>
+      <div class="p-2 border">Flex item 9</div>
+      <div class="p-2 border">Flex item 10</div>
+      <div class="p-2 border">Flex item 11</div>
+      <div class="p-2 border">Flex item 12</div>
+      <div class="p-2 border">Flex item 13 </div>
+      <div class="p-2 border">Flex item 14</div>
+      <div class="p-2 border">Flex item 15</div>
+      <div class="p-2 border">Flex item 16</div>
+      <div class="p-2 border">Flex item 17</div>
+      <div class="p-2 border">Flex item 18</div>
+      <div class="p-2 border">Flex item 19</div>
+      <div class="p-2 border">Flex item 20</div>
+      <div class="p-2 border">Flex item 21</div>
+      <div class="p-2 border">Flex item 22</div>
+      <div class="p-2 border">Flex item 23</div>
+      <div class="p-2 border">Flex item 24</div>
+      <div class="p-2 border">Flex item 25</div>
+    </div>
+    <br>
+    <p>.align-content-around:</p>
+    <div class="d-flex flex-wrap align-content-around bg-light" style="height:300px">
+      <div class="p-2 border">Flex item 1</div>
+      <div class="p-2 border">Flex item 2</div>
+      <div class="p-2 border">Flex item 3</div>
+      <div class="p-2 border">Flex item 4</div>
+      <div class="p-2 border">Flex item 5</div>
+      <div class="p-2 border">Flex item 6</div>
+      <div class="p-2 border">Flex item 7</div>
+      <div class="p-2 border">Flex item 8</div>
+      <div class="p-2 border">Flex item 9</div>
+      <div class="p-2 border">Flex item 10</div>
+      <div class="p-2 border">Flex item 11</div>
+      <div class="p-2 border">Flex item 12</div>
+      <div class="p-2 border">Flex item 13 </div>
+      <div class="p-2 border">Flex item 14</div>
+      <div class="p-2 border">Flex item 15</div>
+      <div class="p-2 border">Flex item 16</div>
+      <div class="p-2 border">Flex item 17</div>
+      <div class="p-2 border">Flex item 18</div>
+      <div class="p-2 border">Flex item 19</div>
+      <div class="p-2 border">Flex item 20</div>
+      <div class="p-2 border">Flex item 21</div>
+      <div class="p-2 border">Flex item 22</div>
+      <div class="p-2 border">Flex item 23</div>
+      <div class="p-2 border">Flex item 24</div>
+      <div class="p-2 border">Flex item 25</div>
+    </div>
+    <br>
+    <p>.align-content-stretch:</p>
+    <div class="d-flex flex-wrap align-content-stretch bg-light" style="height:300px">
+      <div class="p-2 border">Flex item 1</div>
+      <div class="p-2 border">Flex item 2</div>
+      <div class="p-2 border">Flex item 3</div>
+      <div class="p-2 border">Flex item 4</div>
+      <div class="p-2 border">Flex item 5</div>
+      <div class="p-2 border">Flex item 6</div>
+      <div class="p-2 border">Flex item 7</div>
+      <div class="p-2 border">Flex item 8</div>
+      <div class="p-2 border">Flex item 9</div>
+      <div class="p-2 border">Flex item 10</div>
+      <div class="p-2 border">Flex item 11</div>
+      <div class="p-2 border">Flex item 12</div>
+      <div class="p-2 border">Flex item 13 </div>
+      <div class="p-2 border">Flex item 14</div>
+      <div class="p-2 border">Flex item 15</div>
+      <div class="p-2 border">Flex item 16</div>
+      <div class="p-2 border">Flex item 17</div>
+      <div class="p-2 border">Flex item 18</div>
+      <div class="p-2 border">Flex item 19</div>
+      <div class="p-2 border">Flex item 20</div>
+      <div class="p-2 border">Flex item 21</div>
+      <div class="p-2 border">Flex item 22</div>
+      <div class="p-2 border">Flex item 23</div>
+      <div class="p-2 border">Flex item 24</div>
+      <div class="p-2 border">Flex item 25</div>
+    </div>
+    <br>
+  </div>
+
+
+  <div class="container mt-3">
+    <h2>Align Items</h2>
+    <p>Control the vertical alignment of single rows of flex items with the .align-items-* classes.</p>
+    <p>.align-items-start:</p>
+    <div class="d-flex align-items-start bg-light" style="height:150px">
+      <div class="p-2 border">Flex item 1</div>
+      <div class="p-2 border">Flex item 2</div>
+      <div class="p-2 border">Flex item 3</div>
+    </div>
+    <br>
+    <p>.align-items-end:</p>
+    <div class="d-flex align-items-end bg-light" style="height:150px">
+      <div class="p-2 border">Flex item 1</div>
+      <div class="p-2 border">Flex item 2</div>
+      <div class="p-2 border">Flex item 3</div>
+    </div>
+    <br>
+    <p>.align-items-center:</p>
+    <div class="d-flex align-items-center bg-light" style="height:150px">
+      <div class="p-2 border">Flex item 1</div>
+      <div class="p-2 border">Flex item 2</div>
+      <div class="p-2 border">Flex item 3</div>
+    </div>
+    <br>
+    <p>.align-items-baseline:</p>
+    <div class="d-flex align-items-baseline bg-light" style="height:150px">
+      <div class="p-2 border">Flex item 1</div>
+      <div class="p-2 border">Flex item 2</div>
+      <div class="p-2 border">Flex item 3</div>
+    </div>
+    <br>
+    <p>.align-items-stretch (default):</p>
+    <div class="d-flex align-items-stretch bg-light" style="height:150px">
+      <div class="p-2 border">Flex item 1</div>
+      <div class="p-2 border">Flex item 2</div>
+      <div class="p-2 border">Flex item 3</div>
+    </div>
+    <br>
+  </div>
+  
+
+  <div class="container mt-3">
+    <h2>Align Self</h2>
+    <p>Control the vertical alignment of a specific flex item with the .align-self-* classes.</p>
+    <p>.align-self-start:</p>
+    <div class="d-flex bg-light" style="height:150px">
+      <div class="p-2 border">Flex item 1</div>
+      <div class="p-2 border align-self-start">Flex item 2</div>
+      <div class="p-2 border">Flex item 3</div>
+    </div>
+    <br>
+    <p>.align-self-end:</p>
+    <div class="d-flex bg-light" style="height:150px">
+      <div class="p-2 border">Flex item 1</div>
+      <div class="p-2 border align-self-end">Flex item 2</div>
+      <div class="p-2 border">Flex item 3</div>
+    </div>
+    <br>
+    <p>.align-self-center:</p>
+    <div class="d-flex bg-light" style="height:150px">
+      <div class="p-2 border">Flex item 1</div>
+      <div class="p-2 border align-self-center">Flex item 2</div>
+      <div class="p-2 border">Flex item 3</div>
+    </div>
+    <br>
+    <p>.align-self-baseline:</p>
+    <div class="d-flex bg-light" style="height:150px">
+      <div class="p-2 border">Flex item 1</div>
+      <div class="p-2 border align-self-baseline">Flex item 2</div>
+      <div class="p-2 border">Flex item 3</div>
+    </div>
+    <br>
+    <p>.align-self-stretch (default):</p>
+    <div class="d-flex bg-light" style="height:150px">
+      <div class="p-2 border">Flex item 1</div>
+      <div class="p-2 border align-self-stretch">Flex item 2</div>
+      <div class="p-2 border">Flex item 3</div>
+    </div>
+    <br>
+  </div>
+
+
+  <div class="container mt-3">
+    <h2>Stacked form</h2>
+    <form action="/action_page.php">
+      <div class="mb-3 mt-3">
+        <label for="email">Email:</label>
+        <input type="email" class="form-control" id="email" placeholder="Enter email" name="email">
+      </div>
+      <div class="mb-3">
+        <label for="pwd">Password:</label>
+        <input type="password" class="form-control" id="pwd" placeholder="Enter password" name="pswd">
+      </div>
+      <div class="form-check mb-3">
+        <label class="form-check-label">
+          <input class="form-check-input" type="checkbox" name="remember"> Remember me
+        </label>
+      </div>
+      <button type="submit" class="btn btn-primary">Submit</button>
+    </form>
+  </div>
+  
+
+  <div class="container mt-3">
+    <h2>Textarea</h2>
+    <p>Use the .form-control class to style textareas as well:</p>
+    <form action="/action_page.php">
+      <div class="mb-3 mt-3">
+        <label for="comment">Comments:</label>
+        <textarea class="form-control" rows="5" id="comment" name="text"></textarea>
+      </div>
+      <button type="submit" class="btn btn-primary">Submit</button>
+    </form>
+  </div>
+
+  <div class="container mt-3">
+    <h2>Inline Forms</h2>
+    <p>If you want your form elements to appear side by side, use .row and .col:</p>
+    <form>
+      <div class="row">
+        <div class="col">
+          <input type="text" class="form-control" placeholder="Enter email" name="email">
+        </div>
+        <div class="col">
+          <input type="password" class="form-control" placeholder="Enter password" name="pswd">
+        </div>
+      </div>
+    </form>
+  </div>
+
+
+  <div class="container mt-3">
+    <h2>Form Control Size</h2>
+    <p>You can change the size of .form-control inputs with .form-control-lg or .form-control-sm:</p>
+    <form>
+      <input type="text" class="form-control form-control-lg" placeholder="Large input">
+      <input type="text" class="form-control mt-3" placeholder="Normal input">
+      <input type="text" class="form-control form-control-sm mt-3" placeholder="Small input">
+    </form>
+  </div>
+  
+
+  <div class="container mt-3">
+    <h2>Disabled and Readonly</h2>
+    <p>Use the disabled and/or readonly attributes to disable the input field:</p>
+    <form>
+      <input type="text" class="form-control" placeholder="Normal input">
+      <input type="text" class="form-control mt-3" placeholder="Disabled input" disabled>
+      <input type="text" class="form-control mt-3" placeholder="Readonly input" readonly>
+    </form>
+  </div>
+
+  <div class="container mt-3">
+    <h2>Plaintext</h2>
+    <p>Use the .form-control-plaintext class to style an input field without borders, but with correct marigins and padding:</p>
+    <form>
+      <input type="text" class="form-control-plaintext" placeholder="Plaintext input">
+      <input type="text" class="form-control mt-3" placeholder="Normal input">
+    </form>
+  </div>
+
+  <div class="container mt-3">
+    <h2>Color Picker</h2>
+    <p>To style an input with type="color" properly, use the .form-control-color class:</p>
+    <form>
+      <label for="myColor" class="form-label">Color picker</label>
+      <input type="color" class="form-control form-control-color" id="myColor" value="#CCCCCC" title="Choose a color">
+    </form>
+  </div>
+
+  <div class="container mt-3">
+    <h2>Select Menu</h2>
+    <p>To style a select menu in Bootstrap 5, add the .form-select class to the select element:</p>
+    <form action="/action_page.php">
+      <label for="sel1" class="form-label">Select list (select one):</label>
+      <select class="form-select" id="sel1" name="sellist1">
+        <option>1</option>
+        <option>2</option>
+        <option>3</option>
+        <option>4</option>
+      </select>
+      <br>
+      
+      <label for="sel2" class="form-label">Mutiple select list (hold shift to select more than one):</label>
+      <select multiple class="form-select" id="sel2" name="sellist2">
+        <option>1</option>
+        <option>2</option>
+        <option>3</option>
+        <option>4</option>
+        <option>5</option>
+      </select>
+      <button type="submit" class="btn btn-primary mt-3">Submit</button>
+    </form>
+  </div>
+  
+
+  <div class="container mt-3">
+    <h2>Select Menu Size</h2>
+    <p>Use the .form-select-lg or .form-select-sm class to change the size of the select menu:</p>
+    <form>
+     <select class="form-select form-select-lg">
+       <option>1</option>
+       <option>2</option>
+       <option>3</option>
+       <option>4</option>
+     </select>
+     
+     <select class="form-select mt-3">
+       <option>1</option>
+       <option>2</option>
+       <option>3</option>
+       <option>4</option>
+     </select>
+     
+     <select class="form-select form-select-sm mt-3">
+       <option>1</option>
+       <option>2</option>
+       <option>3</option>
+       <option>4</option>
+     </select>
+    </form>    
+  </div>
+
+
+  <div class="container mt-3">
+    <h2>Select Menu Size</h2>
+    <p>Use the disabled attribute to disable the select menu:</p>
+    <form>
+     <select class="form-select" disabled>
+       <option>1</option>
+       <option>2</option>
+       <option>3</option>
+       <option>4</option>
+     </select>
+    </form>    
+  </div>
+
+
+  <div class="container mt-3">
+    <h2>Data List</h2>
+    <form action="/action_page.php">
+      <label for="browser" class="form-label">Choose your browser from the list:</label>
+      <input class="form-control" list="browsers" name="browser" id="browser">
+      <datalist id="browsers">
+        <option value="Edge">
+        <option value="Firefox">
+        <option value="Chrome">
+        <option value="Opera">
+        <option value="Safari">
+      </datalist>    
+      <button type="submit" class="btn btn-primary mt-3">Submit</button>
+    </form>
+  </div>
+
+  <div class="container mt-3">
+    <h2>Checkboxes</h2>
+    <p>To style a checkbox, use a container element with a .form-check class, and add .form-check-label to labels, and .form-check-input to the input with type="checkbox".</p>
+    <p>The form below contains three checkboxes. The first option is checked by default, and the last option is disabled:</p>
+    <form action="/action_page.php">
+      <div class="form-check">
+        <input type="checkbox" class="form-check-input" id="check1" name="option1" value="something" checked>
+        <label class="form-check-label" for="check1">Option 1</label>
+      </div>
+      <div class="form-check">
+        <input type="checkbox" class="form-check-input" id="check2" name="option2" value="something">
+        <label class="form-check-label" for="check2">Option 2</label>
+      </div>
+      <div class="form-check">
+        <input type="checkbox" class="form-check-input" disabled>
+        <label class="form-check-label">Option 3</label>
+      </div>
+      <button type="submit" class="btn btn-primary mt-3">Submit</button>
+    </form>
+  </div>
+
+
+<div class="container mt-3">
+  <h2>Radio buttons</h2>
+  <p>The form below contains three radio buttons. The first option is checked by default, and the last option is disabled:</p>
+  <form action="/action_page.php">
+    <div class="form-check">
+      <input type="radio" class="form-check-input" id="radio1" name="optradio" value="option1" checked>
+      <label class="form-check-label" for="radio1">Option 1</label>
+    </div>
+    <div class="form-check">
+      <input type="radio" class="form-check-input" id="radio2" name="optradio" value="option2">
+      <label class="form-check-label" for="radio2">Option 2</label>
+    </div>
+    <div class="form-check">
+      <input type="radio" class="form-check-input" disabled>
+      <label class="form-check-label">Option 3</label>
+    </div>
+    <button type="submit" class="btn btn-primary mt-3">Submit</button>
+  </form>
+</div>
+
+
+<div class="container mt-3">
+    <h2>Toggle Switch</h2>
+    <p>Try to submit the form with and without toggling the switch.</p>
+    <form action="/action_page.php">
+      <div class="form-check form-switch">
+        <input class="form-check-input" type="checkbox" id="mySwitch" name="darkmode" value="yes" checked>
+        <label class="form-check-label" for="mySwitch">Dark Mode</label>
+      </div>
+      <button type="submit" class="btn btn-primary mt-3">Submit</button>
+    </form>
+  </div>
+
+
+<div class="container mt-3">
+  <h2>Custom Range</h2>
+  <p>To create a custom range menu, add the .form-range class to the input element with type="range":</p>
+  <form action="/action_page.php">
+    <label for="customRange" class="form-label">Custom range</label>
+    <input type="range" class="form-range" id="customRange" name="points">
+    
+    <button type="submit" class="btn btn-primary mt-3">Submit</button>
+  </form>
+</div>
+
+
+
+<div class="container mt-3">
+    <h2>Steps in a Range</h2>
+    <p>By default, the interval between the range numbers is 1. You can change it by using the step attribute:</p>
+    <form action="/action_page.php">
+      <label for="customRange" class="form-label">Custom range</label>
+      <input type="range" class="form-range" id="customRange" step="10" name="points">
+      
+      <button type="submit" class="btn btn-primary mt-3">Submit</button>
+    </form>
+  </div>
+
+
+<div class="container mt-3">
+  <h2>Min and Max Range</h2>
+  <p>Use the min and/or max attribute to specify the minimum/maximum value of a range:</p>
+  <form action="/action_page.php">
+    <label for="customRange" class="form-label">Custom range</label>
+    <input type="range" class="form-range" id="customRange" name="points" min="0" max="4">
+    
+    <button type="submit" class="btn btn-primary mt-3">Submit</button>
+  </form>
+</div>
+
+<div class="container mt-3">
+    <h2>Input Group</h2>
+    <p>The .input-group class is a container to enhance an input by adding an icon, text or a button in front or behind the input field as a "help text".</p>
+    <p>Use the .input-group-text class to style the specified help text.</p>
+    
+    <form action="/action_page.php">
+      <div class="input-group mb-3">
+        <span class="input-group-text">@</span>
+        <input type="text" class="form-control" placeholder="Username" name="usrname">
+      </div>
+  
+      <div class="input-group mb-3">
+        <input type="text" class="form-control" placeholder="Your Email" name="email">
+        <span class="input-group-sm input-group-text text-sm">@example.com</span>
+      </div>
+      
+      <button type="submit" class="btn btn-primary">Submit</button>
+    </form>
+  </div>
+  
+
+  <div class="container mt-3">
+    <h2>Input Group Size</h2>
+    <p>Use the .input-group-sm class for small input groups and .input-group-lg for large inputs groups:</p>
+    
+    <div class="input-group input-group-sm mb-3">
+      <span class="input-group-text">Small</span>
+      <input type="text" class="form-control">
+    </div>
+    <div class="input-group mb-3">
+      <span class="input-group-text">Default</span>
+      <input type="text" class="form-control">
+    </div>
+    <div class="input-group input-group-lg mb-3">
+      <span class="input-group-text">Large</span>
+      <input type="text" class="form-control">
+    </div>
+  </div>
+
+  <div class="container mt-3">
+    <h2>Multiple Inputs and Helpers</h2>
+    <p>Add multiple inputs or addons:</p>
+    
+    <!-- Multiple inputs -->
+    <div class="input-group mb-3">
+      <span class="input-group-text">Person</span>
+      <input type="text" class="form-control" placeholder="First Name">
+      <input type="text" class="form-control" placeholder="Last Name">
+    </div>
+  
+    <!-- Multiple addons / help text -->
+    <div class="input-group mb-3">
+      <span class="input-group-text">One</span>
+      <span class="input-group-text">Two</span>
+      <span class="input-group-text">Three</span>
+      <input type="text" class="form-control">
+    </div>
+  </div>
+
+
+  <div class="container mt-3">
+    <h3>Input Group with Checkboxes and Radios</h3>
+    <p>You can also use checkboxes or radio buttons instead of text:</p>
+    
+    <!-- Multiple inputs -->
+    <div class="input-group mb-3">
+      <div class="input-group-text">
+        <input type="checkbox">
+      </div>
+      <input type="text" class="form-control" placeholder="Some text">
+    </div>
+  
+    <div class="input-group mb-3">
+      <div class="input-group-text">
+        <input type="radio">
+      </div>
+      <input type="text" class="form-control" placeholder="Some text">
+    </div>
+  </div>
+
+  <div class="container mt-3">
+    <h3>Input Group Buttons</h3>
+    
+    <div class="input-group mb-3 mt-3">
+      <button class="btn btn-outline-primary" type="button">Basic Button</button>
+      <input type="text" class="form-control" placeholder="Some text">
+    </div>
+  
+    <div class="input-group mb-3">
+      <input type="text" class="form-control" placeholder="Search">
+      <button class="btn btn-success" type="submit">Go</button> 
+    </div>
+  
+    <div class="input-group mb-3">
+      <input type="text" class="form-control" placeholder="Something clever..">
+      <button class="btn btn-primary" type="button">OK</button> 
+      <button class="btn btn-danger" type="button">Cancel</button> 
+    </div>
+
+    <div class="container mt-3">
+        <h3>Input Groups with Dropdown Button</h3>
+        <p>Add a dropdown button in the input group. Note that you don't need the .dropdown wrapper, as you normally would.</p>
+          
+        <div class="input-group mt-3 mb-3">
+          <button type="button" class="btn btn-primary dropdown-toggle" data-bs-toggle="dropdown">
+            Dropdown button
+          </button>
+          <ul class="dropdown-menu">
+            <li><a class="dropdown-item" href="#">Link 1</a></li>
+            <li><a class="dropdown-item" href="#">Link 2</a></li>
+            <li><a class="dropdown-item" href="#">Link 3</a></li>
+          </ul>
+          <input type="text" class="form-control" placeholder="Username">
+        </div>
+      </div>
+
+      <div class="container mt-3">
+        <h2>Floating Labels - Inputs</h2>
+        <p>Click inside the input field to see the floating label effect:</p>
+        <form action="/action_page.php">
+          <div class="form-floating mb-3 mt-3">
+            <input type="text" class="form-control" id="email" placeholder="Enter email" name="email">
+            <label for="email">Email</label>
+          </div>
+          <div class="form-floating mt-3 mb-3">
+            <input type="text" class="form-control" id="pwd" placeholder="Enter password" name="pswd">
+            <label for="pwd">Password</label>
+          </div>
+          <button type="submit" class="btn btn-primary">Submit</button>
+        </form>
+      </div>
+
+
+      <div class="container mt-3">
+        <h2>Floating Labels - Textarea</h2>
+        <p>Click inside the textarea to see the floating label effect:</p>
+        <form action="/action_page.php">
+          <div class="form-floating mb-3 mt-3">
+            <textarea class="form-control" id="comment" name="text" placeholder="Comment goes here"></textarea>
+            <label for="comment">Comments</label>
+          </div>
+          <button type="submit" class="btn btn-primary">Submit</button>
+        </form>
+      </div>
+
+      <div class="container mt-3">
+        <h2>Floating Labels - Select</h2>
+        <p>You can also use "floating-labels" on select menus. However, they will not float/get animated. The label will always appear in the top left corner, inside the select menu:</p>
+        <form action="/action_page.php">
+          <div class="form-floating mb-3 mt-3">
+            <select class="form-select" id="sel1" name="sellist">
+              <option>1</option>
+              <option>2</option>
+              <option>3</option>
+              <option>4</option>
+            </select>
+            <label for="sel1" class="form-label">Select list (select one):</label>
+          </div>
+          <button type="submit" class="btn btn-primary">Submit</button>
+        </form>
+      </div>
+      
+
+      <div class="container mt-3">
+        <h3>Form Validation</h3>
+        <p>Try to submit the form.</p>
+          
+        <form action="/action_page.php" class="was-validated">
+          <div class="mb-3 mt-3">
+            <label for="uname" class="form-label">Username:</label>
+            <input type="text" class="form-control" id="uname" placeholder="Enter username" name="uname" required>
+            <div class="valid-feedback">Valid.</div>
+            <div class="invalid-feedback">Please fill out this field.</div>
+          </div>
+          <div class="mb-3">
+            <label for="pwd" class="form-label">Password:</label>
+            <input type="password" class="form-control" id="pwd" placeholder="Enter password" name="pswd" required>
+            <div class="valid-feedback">Valid.</div>
+            <div class="invalid-feedback">Please fill out this field.</div>
+          </div>
+          <div class="form-check mb-3">
+            <input class="form-check-input" type="checkbox" id="myCheck"  name="remember" required>
+            <label class="form-check-label" for="myCheck">I agree on blabla.</label>
+            <div class="valid-feedback">Valid.</div>
+            <div class="invalid-feedback">Check this checkbox to continue.</div>
+          </div>
+        <button type="submit" class="btn btn-primary">Submit</button>
+        </form>
+      </div>
+      
+
+      <div class="container-fluid mt-3">
+        <h1>Basic Grid Structure</h1>
+        <p>Resize the browser window to see the effect.</p>
+        <p>The first, second and third row will automatically stack on top of each other when the screen is less than 576px wide.</p>
+        
+        <!-- Control the column width, and how they should appear on different devices -->
+        <div class="row">
+          <div class="col-sm-6 bg-primary text-white">50%</div>
+          <div class="col-sm-6 bg-dark text-white">50%</div>
+        </div>
+        <br>
+          
+        <div class="row">
+          <div class="col-sm-4 bg-primary text-white">33.33%</div>
+          <div class="col-sm-4 bg-dark text-white">33.33%</div>
+          <div class="col-sm-4 bg-primary text-white">33.33%</div>
+        </div>
+        <br>
+      
+        <!-- Or let Bootstrap automatically handle the layout -->
+        <div class="row">
+          <div class="col-sm bg-primary text-white">25%</div>
+          <div class="col-sm bg-dark text-white">25%</div>
+          <div class="col-sm bg-primary text-white">25%</div>
+          <div class="col-sm bg-dark text-white">25%</div>
+        </div>
+        <br>
+          
+        <div class="row">
+          <div class="col bg-primary text-white">25%</div>
+          <div class="col bg-dark text-white">25%</div>
+          <div class="col bg-primary text-white">25%</div>
+          <div class="col bg-dark text-white">25%</div>
+        </div>
+      </div>
+
+      <div class="container-fluid mt-3">
+        <h1>Grid Example</h1>
+        <p>This example demonstrates a 50%/50% split on small, medium, large, xlarge and xxlarge devices. On extra small devices, it will stack (100% width).</p>      
+        <p>Resize the browser window to see the effect.</p> 
+        <div class="row">
+          <div class="col-sm-6 bg-primary text-white p-3">
+            Lorem ipsum...
+          </div>
+          <div class="col-sm-6 bg-dark text-white p-3">
+            Sed ut perspiciatis...
+          </div>
+        </div>
+      </div>
+
+
+<div class="container-fluid mt-3">
+  <h1>Auto Layout Columns</h1>
+  <p>In Bootstrap 5, there is an easy way to create equal width columns: just use the <code>.col-size</code> class on a specified number of col elements. Bootstrap will recognize how many columns there are, and each column will get the same width.</p>
+  <p>Two columns: 50% width on all screens, except for extra small (100% width on screens less than <strong>576px</strong> wide)</p>
+  <div class="container-fluid">
+    <div class="row">
+      <div class="col-sm bg-primary text-white p-3">1 of 2</div>
+      <div class="col-sm bg-dark text-white p-3">2 of 2</div>
+    </div>  
+  </div>
+  <br>
+  
+  <p>Four columns: 25% width on all screens, except for extra small (100% width on screens less than <strong>576px</strong> wide)</p>
+  <div class="container-fluid">
+    <div class="row">
+      <div class="col-sm bg-primary text-white p-3">1 of 4</div>
+      <div class="col-sm bg-dark text-white p-3">2 of 4</div>
+      <div class="col-sm bg-primary text-white p-3">3 of 4</div>
+      <div class="col-sm bg-dark text-white p-3">4 of 4</div>
+    </div>  
+  </div>
+</div>
+
+<div class="container-fluid mt-3">
+    <h1>Extra Small Grid (Auto Layout)</h1>
+    <p>The following example will result in a 25%/75% split on all devices.</p>
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-3 bg-primary text-white p-3">
+          Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.<br>
+          Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+        </div>
+        <div class="col-9 bg-dark text-white p-3">
+          Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="container-fluid mt-3">
+    <h1>Extra Small Grid</h1>
+    <p>The following example will result in a 33.3%/66.6% split on all devices.</p>
+    <p>Resize the browser window to see the effect.</p>
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-4 bg-primary text-white p-3">
+          Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.<br>
+          Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+        </div>
+        <div class="col-8 bg-dark text-white p-3">
+          Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.
+        </div>
+      </div>
+    </div>
+    <br>
+    
+    <p>This example will result in a 50%/50% split on all devices.</p>
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-6 bg-primary text-white p-3">
+          Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.<br>
+          Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+        </div>
+        <div class="col-6 bg-dark text-white p-3">
+          Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.
+        </div>
+      </div>
+    </div>
+  </div>
+  
+  <div class="container-fluid mt-3">
+    <h1>Auto Layout Columns</h1>
+    <p>In Bootstrap 5, there is an easy way to create equal width columns for all devices: just use the <code>.col</code> class on a specified number of col elements. Bootstrap will recognize how many columns there are, and each column will get the same width.</p>
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col bg-primary text-white p-3">1 of 2</div>
+        <div class="col bg-dark text-white p-3">2 of 2</div>
+      </div>  
+    </div>
+    <br>
+    
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col bg-primary text-white p-3">1 of 4</div>
+        <div class="col bg-dark text-white p-3">2 of 4</div>
+        <div class="col bg-primary text-white p-3">3 of 4</div>
+        <div class="col bg-dark text-white p-3">4 of 4</div>
+      </div>  
+    </div>
+  </div>
+
+  <div class="container-fluid mt-3">
+    <h1>Small Grid</h1>
+    <p>The following example will result in a 25%/75% split on small, medium, large, xlarge and xxlarge devices (<strong>576px and above</strong>). On extra small devices, it will stack (100% width).</p>
+    <p>Resize the browser window to see the effect.</p>
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-sm-3 bg-primary text-white">
+          Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.<br>
+          Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+        </div>
+        <div class="col-sm-9 bg-dark text-white">
+          Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+  <div class="container-fluid mt-3">
+    <h1>Medium Grid</h1>
+    <p>The following example will result in a 25%/75% split on small devices and a 50%/50% split on medium (and large, xlarge, xxlarge) devices. On extra small devices, it will automatically stack (100%).</p>
+    <p>Resize the browser window to see the effect.</p>
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-sm-3 col-md-6 bg-primary text-white">
+          Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.<br>
+          Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+        </div>
+        <div class="col-sm-9 col-md-6 bg-dark text-white">
+          Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="container-fluid mt-3">
+    <h1>Large Grid</h1>
+    <p>The following example will result in a 25%/75% split on small devices, a 50%/50% split on medium devices, and a 33%/66% split on large, xlarge and xxlarge devices. On extra small devices, it will automatically stack (100%).</p>
+    <p>Resize the browser window to see the effect.</p>
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-sm-3 col-md-6 col-lg-4 bg-primary text-white">
+          Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+          Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+        </div>
+        <div class="col-sm-9 col-md-6 col-lg-8 bg-dark text-white">
+          Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="container-fluid mt-3">
+    <h1>Responsive Auto Layout Columns</h1>
+    <p>In Bootstrap 5, there is an easy way to create equal width columns: just use the <code>.col-lg</code> class on a specified number of col elements. Bootstrap will recognize how many columns there are, and each column will get the same width.</p>
+    <p>If the screen size is <strong>less than 992px</strong>, the columns will stack horizontally.</p>
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-lg bg-primary text-white">1 of 2</div>
+        <div class="col-lg bg-dark text-white">2 of 2</div>
+      </div>  
+    </div>
+    <br>
+    
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-lg bg-primary text-white">1 of 4</div>
+        <div class="col-lg bg-dark text-white">2 of 4</div>
+        <div class="col-lg bg-primary text-white">3 of 4</div>
+        <div class="col-lg bg-dark text-white">4 of 4</div>
+      </div>  
+    </div>
+  </div>
+
+
+  
+  <div class="container-fluid mt-3">
+    <h1>XLarge Grid</h1>
+    <p>The following example will result in a 25%/75% split on small devices, a 50%/50% split on medium devices, a 33%/66% split on large devices and a 20%/80% on xlarge and xxlarge devices. On extra small devices, it will automatically stack (100%).</p>
+    <p>Resize the browser window to see the effect.</p>
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-sm-3 col-md-6 col-lg-4 col-xl-2 bg-primary text-white">
+          Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+          Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+        </div>
+        <div class="col-sm-9 col-md-6 col-lg-8 col-xl-10 bg-dark text-white">
+          Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+
+  <div class="container-fluid mt-3">
+    <h1>XLarge Grid</h1>
+    <p>The following example will result in a 50%/50% split on xlarge devices (<strong>1200px and above</strong>). On large, medium, small and extra small devices, it will automatically stack (100%).</p>
+    <p>Resize the browser window to see the effect.</p>
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-xl-6 bg-primary text-white">
+          Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.<br>
+          Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+        </div>
+        <div class="col-xl-6 bg-dark text-white">
+          Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.
+        </div>
+      </div>
+    </div>
+  </div>    
+
+
+  <div class="container-fluid mt-3">
+    <h1>Responsive Auto Layout Columns</h1>
+    <p>In Bootstrap 5, there is an easy way to create equal width columns: just use the <code>.col-xl</code> class on a specified number of col elements. Bootstrap will recognize how many columns there are, and each column will get the same width.</p>
+    <p>If the screen size is <strong>less than 1200px</strong>, the columns will stack horizontally.</p>
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-xl bg-primary text-white">1 of 2</div>
+        <div class="col-xl bg-dark text-white">2 of 2</div>
+      </div>  
+    </div>
+    <br>
+    
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-xl bg-primary text-white">1 of 4</div>
+        <div class="col-xl bg-dark text-white">2 of 4</div>
+        <div class="col-xl bg-primary text-white">3 of 4</div>
+        <div class="col-xl bg-dark text-white">4 of 4</div>
+      </div>  
+    </div>
+  </div>
+  
+  <div class="container-fluid mt-3">
+    <h1>XXL Grid</h1>
+    <p>The following example will result in a 50%/50% split on medium, large and extra large devices, and a 25%/75% split on XXL devices. On 
+    small and extra small devices, it will automatically stack (100%):</p>
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-md-6 col-xxl-3 bg-primary text-white">
+          Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+          Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+        </div>
+        <div class="col-md-6 col-xxl-9 bg-dark text-white">
+          Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="container-fluid mt-3">
+    <h1>XXL Grid</h1>
+    <p>The following example will result in a 50%/50% split on XXL devices (<strong>1400px and above</strong>). On extra large, large, medium, small and extra small devices, it will automatically stack (100%).</p>
+    <p>Resize the browser window to see the effect.</p>
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-xxl-6 bg-primary text-white">
+          Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.<br>
+          Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+        </div>
+        <div class="col-xxl-6 bg-dark text-white">
+          Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.
+        </div>
+      </div>
+    </div>
+  </div>    
+
+  <div class="container-fluid mt-3">
+    <h1>Responsive Auto Layout Columns</h1>
+    <p>In Bootstrap 5, there is an easy way to create equal width columns: just use the <code>.col-xxl</code> class on a specified number of col elements. Bootstrap will recognize how many columns there are, and each column will get the same width.</p>
+    <p>If the screen size is <strong>less than 1400px</strong>, the columns will stack horizontally.</p>
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-xxl bg-primary text-white">1 of 2</div>
+        <div class="col-xxl bg-dark text-white">2 of 2</div>
+      </div>  
+    </div>
+    <br>
+    
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-xxl bg-primary text-white">1 of 4</div>
+        <div class="col-xxl bg-dark text-white">2 of 4</div>
+        <div class="col-xxl bg-primary text-white">3 of 4</div>
+        <div class="col-xxl bg-dark text-white">4 of 4</div>
+      </div>  
+    </div>
+  </div>
+  
+
 
 
   <script>
